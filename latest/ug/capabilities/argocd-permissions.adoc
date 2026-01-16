@@ -91,7 +91,7 @@ An identity can be a user or a group.
 
 [source,bash,subs="verbatim,quotes"]
 ----
-aws eksfe update-capability \
+aws eks update-capability \
   --region [.replaceable]`us-east-1` \
   --cluster-name [.replaceable]`cluster` \
   --capability-name [.replaceable]`capname` \
